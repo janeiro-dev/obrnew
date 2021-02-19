@@ -1,0 +1,102 @@
+.nav-login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-login h1 {
+    color: #CC1414;
+}
+
+.brand-logo {
+    text-decoration: none;
+}
+
+.brand-logo:hover {
+    text-decoration: none;
+}
+
+.active-brand-logo {
+    text-decoration: none;
+}
+
+.all-login {
+    width: 90%;
+    margin: 0px auto;
+    height: 100vh;
+}
+
+.signup-buttom {
+    background: #CC1414;
+    font-size: 19px;
+    width: 120px;
+    text-align: center;
+    border-radius: 0.6em;
+    padding: 5px;
+
+}
+
+.signup-b {
+    color: white;
+    text-decoration: none;
+}
+
+.signup-b:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.active-signup-b {
+    color: white;
+    text-decoration: none;
+}
+
+.container-login .card {
+    width: 48%;
+    margin: 0px auto;
+    height: 630px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.card h1 {
+    color: #CC1414;
+}
+
+.card span {
+    font-size: 15px;
+}
+
+#Lemail {
+    text-align: center;
+    border-radius: 1em;
+    background: white;
+    border: 0.2px solid rgb(194, 188, 188);
+}
+
+#Lpassword {
+    text-align: center;
+    border-radius: 1em;
+    background: white;
+    border: 0.2px solid rgb(194, 188, 188);
+}
+
+p span {
+    font-weight: bold;
+}
+
+#ir-login {
+    background-color: #CC1414;
+    color: white;
+    width: 50%;
+    border-radius: 1em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+form {
+    margin-top: 0px;
+}

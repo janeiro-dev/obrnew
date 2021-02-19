@@ -1,0 +1,109 @@
+.nav-signup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-signup h1 {
+    color: #CC1414;
+}
+
+.brand-logo {
+    text-decoration: none;
+}
+
+.brand-logo:hover {
+    text-decoration: none;
+}
+
+.active-brand-logo {
+    text-decoration: none;
+}
+
+.all-signup {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.login-buttom {
+    background: #CC1414;
+    font-size: 19px;
+    width: 140px;
+    text-align: center;
+    border-radius: 0.6em;
+    padding: 7px;
+}
+
+.login-b {
+    color: white;
+    text-decoration: none;
+}
+
+.login-b:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.active-login-b {
+    color: white;
+    text-decoration: none;
+}
+
+.container-signup .card {
+    width: 58%;
+    margin: 0px auto;
+    height: 600px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.card h1 {
+    color: #CC1414;
+}
+
+.card span {
+    font-size: 15px;
+}
+
+#nombre {
+    text-align: center;
+    border-radius: 1em;
+    background: white;
+    border: 0.2px solid rgb(194, 188, 188);
+}
+
+#apellido {
+    text-align: center;
+    border-radius: 1em;
+    background: white;
+    border: 0.2px solid rgb(194, 188, 188);
+}
+
+#email {
+    text-align: center;
+    border-radius: 1em;
+    background: white;
+    border: 0.2px solid rgb(194, 188, 188);
+}
+
+#password {
+    text-align: center;
+    border-radius: 1em;
+    background: white;
+    border: 0.2px solid rgb(194, 188, 188);
+}
+
+p span {
+    font-weight: bold;
+}
+
+#crear {
+    background-color: #CC1414;
+    color: white;
+    width: 50%;
+    border-radius: 1em;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

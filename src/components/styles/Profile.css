@@ -1,0 +1,56 @@
+.caja-profile {
+    border-radius: 2em;
+    border: 1px solid rgb(206, 206, 206);
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.caja-profile .categorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.caja-profile h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.caja-profile #guardar {
+    background-color: #CC1414;
+    color: white;
+    width: 20%;
+    border-radius: 0.8em;
+    font-size: 18px;
+    margin-left: 40%;
+    margin-bottom: 80px;
+}
+
+
+.caja-profile form div {
+    margin-bottom: 30px;
+}
+
+.caja-profile form #place {
+    text-align: center;
+    border-radius: 1em;
+    background: white;
+    border: 0.2px solid rgb(194, 188, 188);
+    width: 90%;
+}
+
+.caja-profile .place-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.caja-profile .rounde {
+    border-radius: 2em;
+}

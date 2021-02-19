@@ -1,0 +1,47 @@
+.edit-foto-caja .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.edit-foto-caja .inputfile+label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.edit-foto-caja .inputfile:focus+label,
+.edit-foto-caja .inputfile+label:hover {
+    background-color: red;
+}
+
+.edit-foto-caja .inputfile+label {
+    cursor: pointer;
+    /* "hand" cursor */
+}
+
+.edit-foto-caja .inputfile:focus+label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.edit-foto-caja label {
+    background-color: #CC1414;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.edit-foto-caja {
+    width: 30%;
+    margin: 0px auto;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+}
